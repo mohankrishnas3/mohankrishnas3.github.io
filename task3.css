@@ -1,0 +1,111 @@
+		.container{
+			width: 40%;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 50px;
+		}
+
+		.thread{
+			display: flex;
+			margin-top: 10px;
+			
+		}
+
+
+		.des-text, .replies-des-text{
+			margin-top: 10px;
+		}
+
+		.thread .name{
+			float: left;
+
+			    line-height: 18px;
+			    font-size: 18px;
+			    font-weight: 600;
+			    margin-right: 10px;
+			}
+
+		.thread .description{
+			float: right;
+		}
+
+		.col-1{
+			margin-left: 10px;
+		    margin-right: 10px;
+		    background: #d0e8e8;
+		    height: fit-content;
+		    padding: 5px 10px 5px 10px;
+		    border-radius: 50%;
+		}
+
+		.thread-buttons{
+			display: flex; 
+			justify-content: center;
+		}
+
+		.thread-buttons input.thread-btn{
+			width: fit-content; height: fit-content; background-color: #00ffff; border-radius: 12px; color: rgb(0, 0, 0); cursor: pointer; font-weight: bold; padding: 4px 9px; display: block; text-align: center; align-items: center; vertical-align: middle; transition: all 200ms ease 0s; box-sizing: border-box; border: 0px; font-size: 13px; user-select: none; touch-action: manipulation;font-
+		}
+
+
+
+		.replies-container{
+			padding-left: 100px;
+		}
+		.replies-thread{
+			display: flex;
+			margin-top: 10px;
+			
+		}
+
+		.replies-thread .replies-name{
+			float: left;
+
+			    line-height: 18px;
+			    font-size: 18px;
+			    font-weight: 600;
+			    margin-right: 10px;
+			}
+
+		.replies-thread .replies-description{
+			float: right;
+		}
+
+		.replies-col-1{
+			margin-left: 10px;
+		    margin-right: 10px;
+		    background: #d0e8e8;
+		    height: fit-content;
+		    padding: 5px 10px 5px 10px;
+		    border-radius: 50%;
+		}
+
+		.replies-thread-buttons{
+			display: flex; 
+			justify-content: center;
+		}
+
+		.replies-thread-buttons input.replies-thread-btn{
+			width: fit-content; height: fit-content; background-color: #00ffff; border-radius: 12px; color: rgb(0, 0, 0); cursor: pointer; font-weight: bold; padding: 4px 9px; display: block; text-align: center; align-items: center; vertical-align: middle; transition: all 200ms ease 0s; box-sizing: border-box; border: 0px; font-size: 13px; user-select: none; touch-action: manipulation;font-
+		}
+
+
+
+.thread-buttons, .replies-thread-buttons, .replies-container{
+	display: none;
+}
+
+
+input[type=button].first-child {
+  width: 100%;
+ 
+  box-sizing: border-box;
+  border: 2px solid #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=button].first-child:focus {
+  border: 3px solid #000;
+}
